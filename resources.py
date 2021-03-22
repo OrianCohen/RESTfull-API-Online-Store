@@ -3,7 +3,7 @@ from flask_restful import Resource, abort
 from DAL import persistence_products, persistence_reports
 from marshmallow import ValidationError
 import datetime
-from app.products_schema import ProductsSchema
+from products_schema import ProductsSchema
 
 class Products(Resource):
     # Get a list off all products or product by id
