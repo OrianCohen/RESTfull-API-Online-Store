@@ -1,14 +1,14 @@
 # Create the products table, will be executes before our api starts
 import jaydebeapi
 
-from models.report_schema import ReportsSchema
+from app.report_schema import ReportsSchema
 
 
 def initialize():
     _execute(("CREATE TABLE IF NOT EXISTS reports ("
               "  id INT PRIMARY KEY AUTO_INCREMENT,"
               "  date DATETIME NOT NULL,"
-              "  snapshot VARCHAR)")
+              "  snapshot STRING)")
              )
 
 
