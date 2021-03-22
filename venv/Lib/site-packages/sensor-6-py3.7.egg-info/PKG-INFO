@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: sensor
+Version: 6
+Summary: Raspberry Pi Sensors
+Home-page: https://github.com/nickoala/sensor
+Author: Nick Lee
+Author-email: lee1nick@yahoo.ca
+License: MIT
+Description: UNKNOWN
+Keywords: raspberry pi raspi rpi sensor
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
