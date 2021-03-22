@@ -4,8 +4,8 @@ from flask_restful import Resource, Api, abort
 from DAL import persistence_products, persistence_reports
 from marshmallow import ValidationError
 import datetime
-from products_schema import ProductsSchema
-from report_schema import ReportsSchema
+from models.products_schema import ProductsSchema
+from models.report_schema import ReportsSchema
 
 app = Flask(__name__)
 api = Api(app)

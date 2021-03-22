@@ -1,5 +1,5 @@
 import jaydebeapi
-from products_schema import ProductsSchema
+from models.products_schema import ProductsSchema
 
 
 # Create the products table, will be executes before our api starts
