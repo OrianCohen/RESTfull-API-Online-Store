@@ -1,3 +1,6 @@
+Develop a management application for an online store.
+This application is RESTful API for product management and reporting
+
 Use cases
 
 •	User can retrieve all products in the store.
