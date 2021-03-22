@@ -1,7 +1,7 @@
 # Create the products table, will be executes before our api starts
 import jaydebeapi
 
-from models.report_schema import ReportsSchema
+from databases_schema.report_schema import ReportsSchema
 
 
 def initialize():
