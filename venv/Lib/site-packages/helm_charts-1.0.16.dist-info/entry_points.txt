@@ -1,0 +1,3 @@
+[console_scripts]
+helm_charts = helm_charts.k8s_charts_installer:main
+
