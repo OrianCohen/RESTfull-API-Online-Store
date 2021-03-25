@@ -1,7 +1,7 @@
 Develop a management application for an online store.
 This application is RESTful API for product management and reporting
 
-Use cases
+**Use cases**
 
 •	User can retrieve all products in the store.
 •	User can retrieve a single product in the store according to its ID.
@@ -9,11 +9,11 @@ Use cases
 •	User can change some detail of the already existing product.
 •	User can download products report.
 
-Database
+**Database**
 
 The application data should be persisted to an in-memory database (like H2).
 
-Reporting API
+**Reporting API**
 
 The application should generate a report every 5 minutes and save it as a snapshot into the database. 
 Make the interval configurable as an application property.
